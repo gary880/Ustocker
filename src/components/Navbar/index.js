@@ -1,7 +1,7 @@
 import { useState } from "react";
 import React from "react";
 import { Link } from "react-router-dom"
-import { Row, Col, Button, Menu } from "antd";
+import { Row, Col, Menu } from "antd";
 import styles from "./index.module.css"
 import logoImage from "../../images/logo.png"
 const Navbar = () => {
@@ -34,7 +34,7 @@ const Navbar = () => {
         <>
             <Row className={styles.navbar}>
                 <Col className={styles.logo} span={4}>
-                    <img className={styles.logo_img} src={logoImage} />
+                    <img className={styles.logo_img} src={logoImage} alt="logo" />
                 </Col>
                 <Col span={16}>
                     <Menu className={styles.nav_link_wrapper} onClick={onClick} selectedKeys={[current]} mode="horizontal" items={items} />

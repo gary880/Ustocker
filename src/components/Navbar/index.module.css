@@ -2,6 +2,9 @@
     height: 75px;
     width: 100%;
     background-color: rgba(163, 163, 163, 0.24);
+    position: fixed;
+    top: 0;
+    z-index: 1000;
 }
 
 .logo {
