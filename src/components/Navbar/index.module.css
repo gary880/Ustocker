@@ -1,0 +1,33 @@
+.navbar {
+    height: 75px;
+    width: 100%;
+    background-color: rgba(163, 163, 163, 0.24);
+}
+
+.logo {
+    height: 100%;
+    width: 100%;
+}
+
+.logo_img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.nav_link_wrapper{
+    height: 100%;
+    background-color: inherit;
+}
+.nav_link{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    margin: 0 2rem 0 2rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: rgb(135, 135, 135) !important;
+}
+
+.nav_link:hover{
+    
+}
