@@ -1,7 +1,7 @@
 .navbar {
     height: 75px;
     width: 100%;
-    background-color: rgba(163, 163, 163, 0.24);
+    background-color:#ffffff;
     position: fixed;
     top: 0;
     z-index: 1000;
@@ -28,9 +28,5 @@
     margin: 0 2rem 0 2rem;
     font-size: 1.3rem;
     font-weight: bold;
-    color: rgb(135, 135, 135) !important;
-}
-
-.nav_link:hover{
-    
+    color: rgb(0, 0, 0) !important;
 }

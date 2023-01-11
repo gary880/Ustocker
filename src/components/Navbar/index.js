@@ -13,7 +13,7 @@ const Navbar = () => {
     const items = [
         {
             label: (
-                <Link className={styles.nav_link} to="/home">
+                <Link className={styles.nav_link} to="/">
                     產品
                 </Link>
             ),
@@ -36,10 +36,10 @@ const Navbar = () => {
                 <Col className={styles.logo} span={4}>
                     <img className={styles.logo_img} src={logoImage} alt="logo" />
                 </Col>
-                <Col span={16}>
+                <Col span={20}>
                     <Menu className={styles.nav_link_wrapper} onClick={onClick} selectedKeys={[current]} mode="horizontal" items={items} />
                 </Col>
-                <Col span={4}></Col>
+                
             </Row>
         </>
     )
